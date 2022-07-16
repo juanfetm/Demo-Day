@@ -1,0 +1,156 @@
+@import "../../node_modules/bulma/bulma.sass";
+
+
+.nav{
+    text-align: center;
+    max-height: 5.5rem;
+    background: #ffc90e;
+}
+.titulo {
+    text-align: center;
+}
+
+.c-menu__item[data-v-1c12100b] {
+    margin: 0 3.9rem 0 0;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: transparent;
+}
+
+pre, p{
+    font-size: 1.5em;
+    color: #000000;
+    background-color: transparent;
+    text-align: center;
+    margin: 0px;
+    
+}
+
+/* footer */
+
+a{
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+.nosotros{
+  font-size: 0.8rem;
+  text-decoration: none;
+
+}
+
+.prosper{
+  margin: 10px;
+  width: 130px;
+  height: 30px;
+  border-radius: 20px;
+}
+.insta{
+    margin: 0px auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+}
+.face{
+    margin: 0px auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+}
+.wrapper {
+  /* display: grid;
+  grid-template-columns: 56rem repeat(2,9px) 5rem; */
+  padding: 30px;
+  display: flex;
+  justify-content:center;
+}
+
+ul{
+  justify-content: center;
+  list-style: none;
+  font-size: 0.9rem;
+}
+
+ul li{
+  display: flex;
+  padding: 1px;
+  align-items: center;
+}
+
+/* footer */
+
+/* fondo de pagina */
+
+html, body {
+  min-height: 100%;
+}
+html {
+  display: grid;
+  justify-content: center;
+  background-color: transparent;
+}
+
+
+.fond{
+  background-image: url("../assets/fondo1.png");
+}
+
+a {
+    color: black;
+}
+
+.hambur{
+        background-color: transparent;
+        height: 300px;
+        text-align: center;
+}
+
+.comer{
+  text-align: center;
+}
+.buscar{
+  display: flex
+}
+
+.map {
+  display: grid;
+  justify-content: end;
+}
+
+.sectionU{
+      border-radius: 20px;
+    background: transparent;
+}
+
+.comidas{
+  height: 50px;
+  height: 50px;
+}
+
+
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: white;
+  text-align: inherit;
+}
+
+input {
+    width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #010101;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+ 
+}
+
+
+.formm{
+  background: black;
+  color: white;
+  text-align: center;
+}
